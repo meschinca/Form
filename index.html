@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="http://jkorpela.fi/cgi-bin/echo.cgi">
+        <label for="name">Nombre completo:</label>
+        <input class="general" type="text" name="name" autofocus required>
+        <label for="birthday">Fecha de nacimiento:</label>
+        <input class="general" type="date" name="birthday" required>
+        <label for="email">e-mail:</label>
+        <input class="general" type="email" placeholder="ejemplo@gmail.com" name="email" required>
+        <input class="submit" type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>
